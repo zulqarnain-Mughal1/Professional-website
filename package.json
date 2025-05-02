@@ -1,0 +1,23 @@
+{
+  "name": "professional-website",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zulqarnain-Mughal1/Professional-website.git"
+  },
+  "keywords": [
+    "javaScript",
+    "Backend"
+  ],
+  "author": "Zulqarnain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zulqarnain-Mughal1/Professional-website/issues"
+  },
+  "homepage": "https://github.com/zulqarnain-Mughal1/Professional-website#readme"
+}
