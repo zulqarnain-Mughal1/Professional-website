@@ -28,13 +28,15 @@ const userSchema = new Schema({
         type: String, //from cloudinary
         required: true,
     },
-    avatar: {
+    coverImage: {
         type: String, //from cloudinary
     },
-    watchHistory: {
-        type: Schema.type.objectid,
-        ref:"video"
-    },
+    watchHistory: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: "Video"
+        }
+    ],
     password: {
         type: String,
         required: [true,"password is required"]
